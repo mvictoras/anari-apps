@@ -1,7 +1,11 @@
+#!/bin/bash
+
+# Copyright (c) 2024 Victor Mateevitsi <mvictoras@gmail.com>
+# Licensed under the MIT License. See LICENSE file in the project root for full license information.
 
 export ANARI_LIBRARY=ospray
 
-# GPU test
+# CPU test
 
 export OSPRAY_LOAD_MODULES=cpu
 export OSPRAY_DEVICE=cpu
